@@ -33,5 +33,5 @@ export class AuthInterceptor implements HttpInterceptor {
   private shouldInterceptReuest(request :HttpRequest<any>): boolean {
     return request.urlWithParams.indexOf('addAuth=true',0) > -1? true:false;
   }
-// modification
+// modification hhda
 }
